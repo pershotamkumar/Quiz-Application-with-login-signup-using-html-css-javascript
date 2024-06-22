@@ -1,0 +1,53 @@
+<!--highscore.html-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" 
+          content="width=device-width,
+                   initial-scale=1.0" />
+    <link rel="stylesheet"
+          href="style.css" />
+       <script src="score.js"></script>
+    <title>Code Quiz - High Scores</title>
+</head>
+<style>
+    body{
+     background-color:#94bbe9;;
+    }
+    .btn-4 {
+       width: 130px;
+       height: 35px;
+       background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+       border-radius: 10px;
+       margin-top: 10px;
+       cursor: pointer;
+   }
+   .btn-5 {
+    width: 130px;
+    height: 35px;
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 51%, #ffecd2 100%);
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+   }
+</style>
+<body>
+    <div class="scores">
+        <h1>Highscores</h1>
+        <ol id="highscores"></ol>
+        <a href="index.html">
+            <button class="btn-4">
+                Re-Start
+            </button>
+        </a>
+        <button id="clear" class="btn-5">
+            Clear Highscores
+        </button>
+    </div>
+</body>
+
+</html>
+
